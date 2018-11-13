@@ -51,6 +51,7 @@ class TestPets(unittest.TestCase):
         Pet.remove_all()
 
     def tearDown(self):
+        # testing auto deployment
         # The free version of Cloudant will rate limit calls
         # to 20 lookups/sec, 10 writes/sec, and 5 queries/sec
         # so we need to pause for a bit to avoid this problem
