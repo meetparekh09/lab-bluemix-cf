@@ -6,7 +6,7 @@ applications:
   instances: 2
   timeout: 180
   #random-route: true
-  host: nyu-lab-bluemix-mbp367
+  host: nyu-lab-bluemix-mbp
   domain: mybluemix.net
   path: .
   disk_quota: 1024M
